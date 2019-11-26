@@ -1,0 +1,13 @@
+.userPanel {
+  font-size: 13px;
+  text-align: right;
+  height: 22px;
+  margin-left: auto;
+  &__loginin {
+    padding-left: 10px;
+    color: #DFDFDF;
+    a {
+      font-size: 13px;
+    }
+  }
+}
