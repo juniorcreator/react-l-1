@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from "../menu/menu";
 import FilmsPreview from '../FilmsPreview/FilmsPreview';
+import Add from '../Add/Add';
 import './FilmsWrapper.scss'
 
 const FilmsWrapper = (props) => {

@@ -1,0 +1,19 @@
+.NavPanel {
+  max-width: 335px;
+  width: 100%;
+  background-color: #585858;
+  &__title {
+    padding: 7px 20px;
+    position: relative;
+    border-bottom: 1px solid #3f413f;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: #f3f3f3;
+    text-shadow: 1px 1px black;
+  }
+  &__content {
+    overflow: hidden;
+    padding: 15px 0;
+  }
+}

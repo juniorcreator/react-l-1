@@ -1,0 +1,29 @@
+.Link {
+  cursor: pointer;
+  font-family: Tahoma, verdana, sans-serif;
+  &.primary {
+    font-size: 13px;
+    color: #e0dfdc;
+    text-decoration: underline;
+    &:hover {
+      color: #DD4B39;
+    }
+  }
+  &.red {
+    color: red;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &.tomato {
+    color: tomato;
+    &:hover {
+      color: rebeccapurple;
+    }
+  }
+  &.big {
+    color: tomato;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}

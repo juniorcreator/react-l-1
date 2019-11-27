@@ -1,0 +1,50 @@
+.FilmsConteiner {
+  border: 1px solid #848480;
+  border-radius: 10px;
+  max-width: 976px;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #585858;
+    border-radius: 10px;
+    border: 1px solid rgb(14, 14, 14);
+  }
+  &__left {
+    max-width: 335px;
+    width: 100%;
+  }
+  &__films {
+
+  }
+  &__right {
+    max-width: 641px;
+    width: 100%;
+    background: #2b2b2b;
+  }
+  &__r-title {
+    border-bottom: 1px solid rgb(17, 17, 17);
+    background: #2b2b2b;
+    position: relative;
+    border-left: 1px solid #404040;
+    padding: 7px 8px 6px 8px;
+    text-align: center;
+    h1 {
+      font-size: 16px;
+      text-shadow: 1px 1px rgb(0, 0, 0);
+      color: rgb(201, 201, 201);
+    }
+  }
+  &__l-title {
+    padding: 7px 20px;
+    position: relative;
+    border-bottom: 1px solid #3f413f;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(243, 243, 243);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+}
