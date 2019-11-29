@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 import Menu from "../menu/menu";
-import FilmsPreview from '../FilmsPreview/FilmsPreview';
-import Add from '../Add/Add';
-import './FilmsWrapper.scss'
+import FilmsPreview from "../FilmsPreview/FilmsPreview";
+import "./FilmsWrapper.scss";
 
-const FilmsWrapper = (props) => {
+const FilmsWrapper = props => {
   return (
-      <div className={'FilmsWrapper content'}>
-        <Menu menu={props.menu} />
-        <FilmsPreview preview={props.preview} />
-      </div>
+    <div className={"FilmsWrapper content"}>
+      <Menu menu={props.menu} />
+      <FilmsPreview preview={props.preview} />
+    </div>
   );
 };
 

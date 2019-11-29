@@ -1,13 +1,14 @@
-import React from 'react';
-import './Line.scss';
+import React from "react";
+import "./Line.scss";
 
-const Line = (props) => {
+const Line = props => {
   return (
-      <div
-          style={{borderTopColor: props.topBorderColor ? props.topBorderColor : null}}
-          className={'Line'}>
-
-      </div>
+    <div
+      style={{
+        borderTopColor: props.topBorderColor ? props.topBorderColor : null
+      }}
+      className={"Line"}
+    />
   );
 };
 
