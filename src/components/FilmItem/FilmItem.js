@@ -1,12 +1,12 @@
 import React from "react";
-import Stars from "../UI/Stars/Stars";
+import Stars from "../ui/Stars/Stars";
 import "./FilmItem.scss";
 
 const FilmItem = () => {
   return (
-    <div className={"FilmItem"}>
-      <div className="FilmItem__top">
-        <h2 className={"FilmItem__title"}>
+    <div className={"film-item"}>
+      <div className="film-item__top">
+        <h2 className={"film-item__title"}>
           <a href="#">Мэри Поппинс возвращается (2019)</a>
           <Stars />
         </h2>

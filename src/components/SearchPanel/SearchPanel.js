@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./searchPanel.scss";
+import "./SearchPanel.scss";
 
 const SearchPanel = () => {
   let [search, setSearch] = useState("Поиск");
@@ -7,17 +7,17 @@ const SearchPanel = () => {
     setSearch(e.target.value);
   };
   return (
-    <div className={"searchPanel"}>
-      <div className="searchPanel__bar">
-        <form className={"searchPanel__form"}>
+    <div className={"search-panel"}>
+      <div className="search-panel__bar">
+        <form className={"search-panel__form"}>
           <input
             onChange={handlSearch}
-            className={"searchPanel__search"}
+            className={"search-panel__search"}
             type="text"
             name="name"
             value={search}
           />
-          <button className="searchPanel__submit" type="submit" title="ok">
+          <button className="search-panel__submit" type="submit" title="ok">
             ok
           </button>
         </form>

@@ -4,7 +4,7 @@ import "./Logo.scss";
 class Logo extends Component {
   render() {
     return (
-      <div className={"Logo"}>
+      <div className={"logo"}>
         <a href="">
           <img src="/img/kinogo.png" alt="logo" />
         </a>

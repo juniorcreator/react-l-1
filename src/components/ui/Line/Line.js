@@ -7,7 +7,7 @@ const Line = props => {
       style={{
         borderTopColor: props.topBorderColor ? props.topBorderColor : null
       }}
-      className={"Line"}
+      className={"line"}
     />
   );
 };

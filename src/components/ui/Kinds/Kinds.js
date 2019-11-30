@@ -10,7 +10,7 @@ const Kinds = props => {
         {props.data.map((item, index) => {
           return (
             <li key={index}>
-              <Link clas={"primary"} isTarget={false} text={item} />
+              <Link href="#" clas={"primary"} isTarget={false} text={item} />
             </li>
           );
         })}

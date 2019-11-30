@@ -1,23 +1,23 @@
 import React from "react";
-import Line from "../../UI/Line/Line";
-import Add from "../../Add/Add";
+import Line from "../../ui/Line/Line";
+import Add from "../../ui/Add/Add";
 import NavPanel from "../NavPanel/NavPanel";
 import FilmItem from "../../FilmItem/FilmItem";
 import "./FilmsConteiner.scss";
 
 const FilmsConteiner = props => {
   return (
-    <div className={"FilmsConteiner"}>
+    <div className={"films-conteiner"}>
       <div className="content">
         <NavPanel catName={props.catName} data={props.data} />
-        <div className="FilmsConteiner__right">
-          <div className="FilmsConteiner__r-title">
+        <div className="films-conteiner__right">
+          <div className="films-conteiner__r-title">
             <h1>Раздел с Фильмами 2019 года</h1>
           </div>
 
           <Line />
           <Add />
-          <div className="FilmsConteiner__films">
+          <div className="films-conteiner__films">
             <FilmItem />
           </div>
         </div>

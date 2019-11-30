@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./components/header/header";
+import Header from "./components/Header/Header";
 import FilmsWrapper from "./components/FilmsWrapper/FilmsWrapper";
 import FilmsConteiner from "./components/hoc/FilmsConteiner/FilmsConteiner";
 import "./App.scss";
@@ -41,6 +41,7 @@ function App() {
     "По странам",
     "Сериалы"
   ]);
+  let films = [];
   return (
     <div className="App">
       <Header />

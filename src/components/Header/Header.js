@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../Logo/Logo";
-import UserPanel from "../userPanel/userPanel";
-import SearchPanel from "../searchPanel/searchPanel";
-import "./header.scss";
+import UserPanel from "../UserPanel/UserPanel";
+import SearchPanel from "../SearchPanel/SearchPanel";
+import "./Header.scss";
 
 export default Header => {
   return (
