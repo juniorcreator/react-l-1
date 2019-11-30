@@ -15,7 +15,7 @@ const Add = () => {
         vspace="0"
         hspace="0"
         scrolling="no"
-      ></iframe>
+      />
     </div>
   );
 };
