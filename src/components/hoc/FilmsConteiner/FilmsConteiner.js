@@ -4,7 +4,7 @@ import Line from "../../ui/Line/Line";
 import Add from "../../ui/Add/Add";
 import NavPanel from "../NavPanel/NavPanel";
 import FilmItem from "../../FilmItem/FilmItem";
-import Pagination from "../../Pagination/Pagination";
+import Pagination from "../../ui/Pagination/Pagination";
 import "./FilmsConteiner.scss";
 
 const FilmsConteiner = () => {
