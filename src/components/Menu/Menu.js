@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../../context";
 import "./Menu.scss";
 
-const Menu = prop => {
+const Menu = () => {
+  let { menu } = useContext(Context);
   return (
     <ul className={"menu"}>
-      {prop.menu.map((item, index) => {
+      {menu.map((item, index) => {
         return (
           <li key={index + "id"} className={"menu__item"}>
             <a href="#">{item}</a>

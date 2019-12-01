@@ -6,8 +6,8 @@ import "./FilmsWrapper.scss";
 const FilmsWrapper = props => {
   return (
     <div className={"films-wrapper content"}>
-      <Menu menu={props.menu} />
-      <FilmsPreview preview={props.preview} />
+      <Menu />
+      <FilmsPreview />
     </div>
   );
 };

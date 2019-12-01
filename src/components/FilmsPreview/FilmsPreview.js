@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../../context";
 import "./FilmsPreview.scss";
 
-const FilmsPreview = props => {
+const FilmsPreview = () => {
+  let { preview } = useContext(Context);
   return (
     <div className="films-preview">
       <div className="films-preview__wrap">
         <ul className={"films-preview__list"}>
-          {props.preview.map((film, index) => {
+          {preview.map((film, index) => {
             return (
               <li key={index + "id"} className={"films-preview__item"}>
                 <div className={"films-preview__inner"}>
