@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../../../context";
 import Line from "../../ui/Line/Line";
 import Add from "../../ui/Add/Add";
 import NavPanel from "../NavPanel/NavPanel";
@@ -6,6 +7,7 @@ import FilmItem from "../../FilmItem/FilmItem";
 import "./FilmsConteiner.scss";
 
 const FilmsConteiner = () => {
+  let { films } = useContext(Context);
   return (
     <div className={"films-container"}>
       <div className="content">
@@ -17,7 +19,9 @@ const FilmsConteiner = () => {
           <Line />
           <Add />
           <div className="films-container__films">
-            <FilmItem />
+            {films.map(film => (
+              <FilmItem film={film} key={film.id} />
+            ))}
           </div>
         </div>
       </div>
