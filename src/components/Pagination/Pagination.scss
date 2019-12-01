@@ -1,0 +1,33 @@
+.pagination {
+  border-left: 1px solid #404040;
+  &__wrap {
+    clear: both;
+    font-size: 12px;
+    padding: 15px 20px;
+    border-top: 1px solid #404040;
+    color: #fff;
+    position: relative;
+    height: 15px;
+    span {
+      font-size: 12px;
+      background: #2b2b2b;
+      padding: 3px 6px;
+      color: rgb(70, 70, 70);
+      border: 1px solid rgb(61, 61, 61);
+    }
+    a,
+    a:link,
+    a:visited {
+      text-decoration: none;
+      border: 1px solid rgb(77, 76, 76);
+      padding: 3px 6px;
+      background: rgb(36, 36, 36);
+      color: rgb(126, 125, 125);
+      &:hover {
+        background-color: rgb(80, 80, 80);
+        color: rgb(163, 163, 163);
+        border: 1px solid rgb(155, 155, 155);
+      }
+    }
+  }
+}

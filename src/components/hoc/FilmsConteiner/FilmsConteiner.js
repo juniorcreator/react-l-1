@@ -4,6 +4,7 @@ import Line from "../../ui/Line/Line";
 import Add from "../../ui/Add/Add";
 import NavPanel from "../NavPanel/NavPanel";
 import FilmItem from "../../FilmItem/FilmItem";
+import Pagination from "../../Pagination/Pagination";
 import "./FilmsConteiner.scss";
 
 const FilmsConteiner = () => {
@@ -22,6 +23,7 @@ const FilmsConteiner = () => {
             {films.map(film => (
               <FilmItem film={film} key={film.id} />
             ))}
+            <Pagination />
           </div>
         </div>
       </div>

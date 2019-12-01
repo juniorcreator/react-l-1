@@ -1,0 +1,21 @@
+.footer {
+  padding: 15px 5px 5px 7px;
+  margin: 0 auto;
+  background-color: #141212;
+  border-radius: 10px 10px 10px 10px;
+  &__wrap {
+    padding-bottom: 5px;
+    text-align: justify;
+    p {
+      padding: 0 0 12px 0;
+      color: rgb(104, 104, 104);
+    }
+    img {
+      opacity: 0.7;
+      float: left;
+      margin: 8px 20px 8px 0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  }
+}
