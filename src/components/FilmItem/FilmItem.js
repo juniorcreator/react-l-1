@@ -1,12 +1,10 @@
-import React, { useContext } from "react";
-import Context from "../../context";
+import React from "react";
 import Licence from "../ui/Licence/Licence";
 import Stars from "../ui/Stars/Stars";
 import Link from "../ui/Link/Link";
 import "./FilmItem.scss";
 
 const FilmItem = ({ film }) => {
-  let { films } = useContext(Context);
   return (
     <div className={"film-item"}>
       <div className="film-item__top">
