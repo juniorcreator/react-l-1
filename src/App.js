@@ -4,7 +4,6 @@ import Header from "./components/Header/Header";
 import FilmsWrapper from "./components/FilmsWrapper/FilmsWrapper";
 import FilmsConteiner from "./components/hoc/FilmsConteiner/FilmsConteiner";
 import Footer from "./components/Footer/Footer";
-import "./App.scss";
 
 function App() {
   let [menu] = useState(["Главная", "Новинки", " Стол заказов", "Помощь"]);
@@ -233,12 +232,12 @@ function App() {
         films
       }}
     >
-      <div className="App">
+      <React.Fragment>
         <Header />
         <FilmsWrapper />
         <FilmsConteiner />
         <Footer />
-      </div>
+      </React.Fragment>
     </Context.Provider>
   );
 }
