@@ -52,6 +52,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 1
     },
     {
@@ -73,6 +74,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: true,
       id: 2
     },
     {
@@ -94,6 +96,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 3
     },
     {
@@ -115,6 +118,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: true,
       id: 4
     },
     {
@@ -136,6 +140,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 5
     },
     {
@@ -157,6 +162,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 6
     },
     {
@@ -178,6 +184,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: true,
       id: 7
     },
     {
@@ -199,6 +206,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: true,
       id: 8
     },
     {
@@ -220,6 +228,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 9
     },
     {
@@ -241,6 +250,7 @@ function App() {
       duration: " 02:06:52",
       premyera: " 3 января 2019",
       published: "5 апреля 2019",
+      licence: false,
       id: 10
     }
   ];

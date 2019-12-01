@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Context from "../../context";
+import Licence from "../ui/Licence/Licence";
 import Stars from "../ui/Stars/Stars";
 import Link from "../ui/Link/Link";
 import "./FilmItem.scss";
@@ -16,9 +17,10 @@ const FilmItem = ({ film }) => {
       </div>
       <div className="film-item__mid">
         <div className="film-item__img">
-          <div className="film-item__img-wrap">
+          <a href="#" className="film-item__img-wrap">
             <img src={`/img/films/${film.id}.jpg`} alt="img" />
-          </div>
+            {film.licence ? <Licence text="Лицензия" /> : null}
+          </a>
           <Link clas="second" href="#" text="Смотреть онлайн" />
         </div>
         <div className="film-item__right">
